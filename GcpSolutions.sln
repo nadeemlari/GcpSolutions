@@ -3,7 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Refrences", "Refrences", "{1EC37C84-145E-409A-A655-D7391FC86E70}"
+	ProjectSection(SolutionItems) = preProject
+		Imprtant.txt = Imprtant.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleCloudFunctiions", "GoogleCloudFunctiions\GoogleCloudFunctiions.csproj", "{D5042B98-8343-426A-9DEF-7B03F0F29B0D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5042B98-8343-426A-9DEF-7B03F0F29B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5042B98-8343-426A-9DEF-7B03F0F29B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5042B98-8343-426A-9DEF-7B03F0F29B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5042B98-8343-426A-9DEF-7B03F0F29B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
