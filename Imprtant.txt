@@ -1,2 +1,0 @@
-Create  google cloud functions in C#
-https://codelabs.developers.google.com/codelabs/cloud-functions-csharp?hl=en#0
