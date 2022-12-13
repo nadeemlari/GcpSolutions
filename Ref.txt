@@ -3,3 +3,16 @@ https://codelabs.developers.google.com/codelabs/cloud-functions-csharp?hl=en#0
 
 Upload file to cloud storage
 https://medium.com/@asadikhan/uploading-csv-files-to-google-cloud-storage-using-c-net-9eaa951eabf2
+
+
+Cloud event function deploy
+
+gcloud functions deploy hello-gcs-function --allow-unauthenticated --entry-point CloudEventFunctionForCloudStorage.Function --gen2 --region asia-south2 --runtime dotnet6 --trigger-event google.storage.object.finalize --trigger-resource sol_cloud_storage_poc
+
+Trigger the function by uploading a file:
+
+echo "Hello from Storage" > random.txt
+gsutil cp random.txt gs://sol_cloud_storage_poc
+
+See the logs:
+gcloud functions logs read function-1 --region asia-south1

@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Refrences", "Refrences", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleCloudFunctiions", "GoogleCloudFunctiions\GoogleCloudFunctiions.csproj", "{D5042B98-8343-426A-9DEF-7B03F0F29B0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UplodatToCloudStorage", "UplodatToCloudStorage\UplodatToCloudStorage.csproj", "{9E97231E-EF04-440B-808C-B1D1E3D2E09D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UplodatToCloudStorage", "UplodatToCloudStorage\UplodatToCloudStorage.csproj", "{9E97231E-EF04-440B-808C-B1D1E3D2E09D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudEventFunctionForCloudStorage", "CloudEventFunctionForCloudStorage\CloudEventFunctionForCloudStorage.csproj", "{A6AA8AFE-88E0-416A-8A17-49A1ED5038F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{9E97231E-EF04-440B-808C-B1D1E3D2E09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E97231E-EF04-440B-808C-B1D1E3D2E09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E97231E-EF04-440B-808C-B1D1E3D2E09D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6AA8AFE-88E0-416A-8A17-49A1ED5038F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AA8AFE-88E0-416A-8A17-49A1ED5038F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AA8AFE-88E0-416A-8A17-49A1ED5038F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AA8AFE-88E0-416A-8A17-49A1ED5038F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
