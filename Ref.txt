@@ -16,3 +16,6 @@ gsutil cp random.txt gs://sol_cloud_storage_poc
 
 See the logs:
 gcloud functions logs read function-1 --region asia-south1
+
+
+gcloud functions deploy hello-gcs-function --allow-unauthenticated --entry-point CloudEventFunctionForCloudStorage.Function --gen2 --region asia-south1 --runtime dotnet6 --trigger-event google.storage.object.finalize --trigger-resource sol_cloud_storage_poc
